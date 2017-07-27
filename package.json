@@ -1,0 +1,20 @@
+{
+  "name": "sqlcipher",
+  "version": "1.0.0",
+  "description": "Encrypted sqlite3",
+  "scripts": {
+    "postinstall": "node postinstall"
+  },
+  "keywords": [
+    "sqlite3",
+    "sqlite",
+    "sqlcipher",
+    "encrypt"
+  ],
+  "dependencies": {
+    "shelljs": "^0.7.4",
+    "sqlite3": "git+https://github.com/zhouchangsheng/node-sqlite3.git#openssl-root"
+  },
+  "author": "zhouchangsheng",
+  "license": "ISC"
+}
