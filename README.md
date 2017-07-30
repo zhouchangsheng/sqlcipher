@@ -50,7 +50,7 @@ npm install sqlcipher --target=`目标运行环境版本号` --arch=`目标运�
 
 
 ### 加密算法
-sqlcipher基于openssl加密库，支持多种加密算法，在实际开发中可以使用默认算法aes-256-cbc或者在[支持的加密算法]((https://github.com/zhouchangsheng/sqlcipher/wiki/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95)中选择其中某一个。
+sqlcipher基于openssl加密库，支持多种加密算法，在实际开发中可以使用默认算法aes-256-cbc或者在[支持的加密算法](https://github.com/zhouchangsheng/sqlcipher/wiki/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95)中选择其中某一个。
 * aes-128-cbc
 * aes-192-cfb
 * aes-256-cbc(默认)
