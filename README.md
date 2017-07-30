@@ -45,7 +45,7 @@ npm install sqlcipher
 
 通过携带参数可以在指定环境下进行编译。[特定环境安装](https://github.com/zhouchangsheng/sqlcipher/wiki/%E5%AE%89%E8%A3%85)
 ```bash
-npm install sqlcipher --target=`目标运行环境版本号` --arch=`目标运行环境位数` --dist-url=`目标运行环境地址` --runtime=`目标运行环境`
+npm install sqlcipher --target=`目标运行环境版本号` --arch=`目标运行环境位数` --dist-url=`目标运行环境下载地址` --runtime=`目标运行环境`
 ```
 
 
