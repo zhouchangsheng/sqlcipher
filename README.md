@@ -26,7 +26,7 @@ SQLCipher是开源SQLite的一个扩展，此处不是作为SQLite插件，而�
 
 ```javascript
 var SQLite3 = require('sqlcipher').verbose();
-var sqlite = new SQLite3('./test-win.db');
+var sqlite = new SQLite3.Database('./test-win.db');
 
 sqlite.run("pragma key = 'secret'");
 sqlite.run("pragma cipher = 'aes-256-cbc'");//optional, default cipher be eqaul to 'aes-256-cbc'
