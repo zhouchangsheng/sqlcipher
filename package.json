@@ -1,9 +1,14 @@
 {
   "name": "sqlcipher",
   "version": "1.0.0",
-  "description": "Encrypted sqlite3",
+  "main":"index.js",
+  "description": "SQLCipher a sqlite3 with encryption based on openssl(SQLCipher 是一个基于openssl加密功能sqlite3)",
   "scripts": {
     "postinstall": "node postinstall"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/zhouchangsheng/sqlcipher.git"
   },
   "keywords": [
     "sqlite3",
@@ -11,10 +16,23 @@
     "sqlcipher",
     "encrypt"
   ],
+  "bugs":{
+    "url":"https://github.com/zhouchangsheng/sqlcipher/issues"
+  },
   "dependencies": {
     "shelljs": "^0.7.4",
     "sqlite3": "git+https://github.com/zhouchangsheng/node-sqlite3.git#openssl-root"
   },
-  "author": "zhouchangsheng",
-  "license": "ISC"
+  "license": "ISC",
+  "author": {
+    "name":"jerry_zhou(zhou chang sheng)",
+    "email":"zcs1041883243@gmail.com"
+  },
+  "maintainers":[
+    {
+      "name":"jerry_zhou(zhou chang sheng)",
+      "email":"zcs1041883243@gmail.com"
+    }
+  ],
+  "homepage":"https://github.com/zhouchangsheng/sqlcipher"
 }

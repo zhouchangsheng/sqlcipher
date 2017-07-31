@@ -1,0 +1,18 @@
+{
+  "name": "sqlcipher",
+  "version": "1.0.0",
+  "description":"",
+  "homepage": "https://zhouchangsheng.github.io",
+  "main": [
+    "./lib/index.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "Gruntfile.js",
+    "MAINTAIN.md",
+    "grunts",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
