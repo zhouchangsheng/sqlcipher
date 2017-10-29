@@ -1,6 +1,6 @@
 {
   "name": "sqlcipher",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "main":"index.js",
   "description": "SQLCipher is a sqlite3 with encryption based on openssl(SQLCipher 是一个基于openssl加密功能sqlite3)",
   "scripts": {
